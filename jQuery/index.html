@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Facebook-Profile </title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+  
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    
+    <script src="https://use.fontawesome.com/fc83335964.js"></script>
+    
+</head>
+<body>
+    
+
+     <div class="container">
+     <br>
+         <ul class="nav nav-pills">
+             <li><a class="fa fa-user-o myProfile" aria-hidden="true" data-toggle="pill" href="#profile"> Profile</a></li>
+             <li><a class="fa fa-newspaper-o myFeed" aria-hidden="true" data-toggle="pill" href="#feed"> Feed </a></li>
+    
+         </ul>
+  
+         <div class="tab-content">
+             <div id="profile" class="tab-pane fade in active" style="visibility:hidden">
+                 <div class="aboutMe" >
+                   <h3> About Me </h3>
+                   <div class="row">
+                       <div class="col-md-4">
+                          Name - <span id="myName"></span> 
+                       </div>
+                       <div class="col-md-4">
+                          Email - <span id="myEmail"></span> 
+                       </div>
+                       <div class="col-md-4">
+                         HomeTown - <span id="myHomeTown"></span> 
+                       </div>
+                       <div class="col-md-4">
+                         Profile Url - <span id="myProfileId"></span> 
+                       </div>
+                       <div class="col-md-4">
+                         Gender- <span id="myGender"></span> 
+                       </div>
+                        <div class="col-md-4">
+                         City- <span id="location"></span> 
+                       </div>
+                   </div> <!-- end about me -->
+                 </div> 
+                 <br>
+
+                 <div class="Education">    
+                     <h3>  Education Details </h3>
+                     <div class="row" >
+                       
+                         <div class="col-md-4">
+                             <h4><b>Graduation:</b></h4>
+                             College Name - <span id= "grdCollegeName"> </span> <br>
+                             Degree- <span id="degree"></span> 
+                         </div>
+                         <div class="col-md-4">
+                             <h4><b>College:</b></h4>
+                             College Name - <span id="collegeName"></span> <br>
+                             Discipline- <span id="discipline"></span> 
+                         </div>
+                         <div class="col-md-4">
+                             <h4><b>High School:</b></h4>
+                             School Name - <span id="schoolName"></span> <br>
+                             Class- <span id="class"></span>  
+                         </div>
+                       
+                     </div>
+                 </div> <!-- end education details -->
+
+             </div>
+            <!--  For feed tab where  the html elements has been added dynamically using jquery -->
+             <div id="feed" class="tab-pane fade Feed">
+                    <div class="feedTab">
+                    	
+                    </div>
+           
+             </div>
+     </div>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+   <script  src="profile.js"></script> <!-- This contains the code for profile tab -->
+   <script  src="feed.js"></script> <!-- This contains the code for feed tab -->
+
+</body>
+</html>
