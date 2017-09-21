@@ -1,7 +1,7 @@
 // main document ready function to check if dom is loaded fully or not
 $( document ).ready(function() {
 
-    var myFacebookToken = 'EAACEdEose0cBAKpXuZAwkkR5h4GtZBvxY3ShhmW1uCKNU4PkP3exKXv38OAQBWRCClKCsAUmGqzjbSUNI6S454EZB88ip8PrsLGRERJXNvusp1ZCl1t1jGgemoV41U3QcjP0QUwkZAOZBjoBthB2oYP9WUVrkidNdr4qbsbdUzk7ipAChPvKxijDbmGGJhuHYZD';
+    var myFacebookToken = 'EAACEdEose0cBADX1VrZAnxCiFLW4lvloWRZBLzE5qFZAubv65BZCDusjGf2CUVUeUVKdPT311bxHHQlPDTVr0DdDzCNYGc8FgZC5GcZCJrFJY4oJUP6ZA8IWZAse1OUyGPUWkOEhVKCbLDBwgJLNtDQy8SUMlz2kOaPTSnyQxT9JaJkQmB2xLiZCrZBNNKEZBvshZBoZD';
     $("#profile").css("visibility","hidden");
     function getFacebookInfo(){
         $("#profile").css("visibility","visible");
